@@ -1,4 +1,4 @@
-# Law-Home-Page
+# Law Home Page
 
 >Live Link : [Law Home Page](https://google.com)
 
