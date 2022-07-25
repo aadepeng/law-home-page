@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700&family=Red+Rose:wght@300&family=Secular+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #2B2922;
+    --light-white-color: #626059;
+    --white-color: #fff;
+    --dark-yellow: #A77B06;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: url(./images/pexels-ekaterina-bolovtsova-6077325.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    padding: 1rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.list .list-item {
+    color: var(--light-white-color);
+    font-family: 'Nunito',sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+.list li:nth-child(1) {
+    color: var(--white-color);
+}
+
+.button-small {
+    padding: 12.8px 24px;
+    color: var(--dark-yellow);
+    border: 1px solid var(--dark-yellow);
+    background: transparent;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.hero {
+    width: 100%;
+    height: 80vh;
+    color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-main {
+    padding: 3rem 6rem;
+    width: 100%;
+    height: 30vh;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-heading {
+    flex: 0.4;
+    font-size: 3rem;
+    font-family: 'Secular One',sans-serif;
+    font-weight: 900;
+}
+
+.top-main p {
+    flex: 0.3;
+    font-size: 1.2rem;
+    font-family: 'Nunito',sans-serif;
+    color:#C5C4C2;
+}
+
+.middle-main img {
+    width: 100%;
+    height: 50vh; 
+    background-size: contain;
+} 
+
+.bottom-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 8vh;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.bottom-container i {
+    padding: 0.8rem 1.4rem;
+    margin-left: 0.5rem;
+    font-size: 2rem;
+    background-color: var(--dark-yellow);
+    cursor: pointer;
+}
