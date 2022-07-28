@@ -1,6 +1,6 @@
 # Law Home Page
 
->Live Link : [Law Home Page](https://google.com)
+>Live Link : [Law Home Page](https://lawhome-page.netlify.app/)
 
 >This site should look like this - 
 ![Law](https://raw.githubusercontent.com/aadepeng/law-home-page/main/Law%20Home%20Page.png)
